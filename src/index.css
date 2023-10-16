@@ -1,13 +1,213 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+
+* {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Inter', sans-serif;
+  /* height: 0%; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.myPic {
+  width: 317px;
+}
+
+.myPicdiv {
+display: flex;
+justify-content: center;
+margin-bottom: 0px;
+}
+
+.ProfileName {
+  text-align: center;
+  color: #2B283A;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.ProfileJob {
+  text-align: center;
+  color: #F47D27;
+  font-weight: 400;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.ProfileLink {
+  text-align: center;
+  color: #4A4E74;
+  font-weight: 400;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.Socials {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  
+}
+
+.SocialsEmail {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  /* padding: 9px, 13px, 9px, 11px; */
+  /* gap: 8px;  */
+  margin: 0 17px;
+  align-items: center;
+}
+
+.SocialsEmail ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 9px 28px;
+  /* width: 115px;
+  height: 34px;
+  padding: 9px, 13px, 9px, 11px;
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;
+  border: 1px;
+  gap: 8px; */
+}
+
+.SocialsEmail ul li {
+  float: left;
+  margin-bottom: 8px;
+  /* position: absolute; */
+}
+
+.emailLink {
+  text-decoration: none;
+  color: #374151;
+  margin-left: 8px;
+  margin-bottom: 0px;
+}
+
+.emailIcon {
+  position: relative;
+  color: #1E1F26;
+  width: 16px;
+  height: 16px;
+  top: 3px;
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+.SocialsLinkedin {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+  background-color: #297FE5;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  /* padding: 9px, 13px, 9px, 11px; */
+  /* gap: 8px;  */
+  margin: 0 17px;
+  align-items: center;
+}
+
+.SocialsLinkedin ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 9px 28px;
+  /* width: 115px;
+  height: 34px;
+  padding: 9px, 13px, 9px, 11px;
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;
+  border: 1px;
+  gap: 8px; */
+}
+
+.SocialsLinkedin ul li {
+  float: left;
+  margin-bottom: 8px;
+  /* position: absolute; */
+}
+
+.linkedinLink {
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-left: 8px;
+  margin-bottom: 0px;
+}
+
+.linkedinIcon {
+  position: relative;
+  color: #FFFFFF;
+  width: 16px;
+  height: 16px;
+  top: 3px;
+  margin-bottom: 0;
+}
+
+.TellAbout {
+  margin-top: 24px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 0;
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: center; */
+}
+
+.about {
+  margin-bottom: 0;
+  font-weight: 700;
+  color: #2B283A;
+  /* text-align: center; */
+}
+
+.about_ {
+  margin-top: 4px;
+  margin-bottom: 0;
+  color: #4A4E74;
+  font-weight: 400;
+}
+
+.interests {
+  margin-top: 27px;
+  margin-bottom: 0;
+  font-weight: 700;
+  color: #2B283A;
+}
+
+.interests_ {
+  margin-top: 4px;
+  margin-bottom: 0;
+  color: #4A4E74;
+  font-weight: 400;
+}
+
+.icons {
+  position: absolute;
+  margin-top: 32px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: 64px;
+  width: 100%;
+  background-color: #D5D4D8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon_ {
+  color: #918E9B;
+  margin: 0;
+  width: 25px;
+  height: 25px;
+  padding: 19px 24px;
 }
